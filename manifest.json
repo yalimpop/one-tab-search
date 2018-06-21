@@ -1,0 +1,17 @@
+{
+    "name": "One Tab Search",
+    "version": "0.1",
+    "description": "Get search results and scroll through them in one tab",
+    "permissions": [
+      "storage",
+      "webRequest",
+      "*://*.google.com/*",
+      "webRequestBlocking"
+    ],
+    "background": {
+     "scripts": ["background.js", "process.js"],
+     "persistent": true
+   },
+    "manifest_version": 2
+
+  }
